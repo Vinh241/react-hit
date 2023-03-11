@@ -1,0 +1,293 @@
+*{
+  padding:0;
+  margin:0;
+}
+.logo{
+  color:white;
+}
+.Banner{
+  background-color: rgb(55, 81, 126);
+}
+
+.Nav{
+  display:flex;
+  flex-wrap: wrap;
+  margin:auto;
+  color:white;
+  justify-content: space-between;
+  align-items: center;
+  padding:0px 10%;
+  position: fixed;
+  width:80%;
+  transition: .5s;
+  z-index: 99;
+}
+.header-scroll{
+  background-color: rgba(40, 58, 90, 0.9);
+}
+.logo{
+  flex-basis: 30%;
+  text-decoration: none;
+}
+.nav-bar{
+  flex-basis: 60%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.Nav>ul>li{
+  cursor: pointer;
+  align-items: center;
+  line-height: 80px;
+}
+.Nav ul li:hover {
+  color: rgb(7, 192, 192);
+}
+ul li:hover i.fa-chevron-down {
+  color: rgb(7, 192, 192);
+}
+.drop-down1{
+  display: inline-block;
+  position: relative;
+}
+.container{
+  display:flex;
+}
+.menu1{
+  background-color: white;
+  color:black;
+  display: flex;
+  font-size:15px; 
+  list-style: none;
+  flex-direction: column;
+  visibility: hidden;
+  position: absolute;
+  width:180px;
+  line-height: 50px;
+  border-radius: 10px;
+  top: calc(100% - 10px);
+}
+.drop-down1:hover .menu1 {
+  opacity: 1;
+  transition: .5s;
+  visibility: inherit
+}
+.fa-chevron-right{
+  margin-left: 30px;
+}
+.drop-down2{
+  position: relative;
+}
+.menu2{
+  display: flex;
+  background-color: white;
+  color:black;
+  position: absolute;
+  opacity: 0;
+  flex-direction: column;
+  left:180px;
+  width:180px;
+  top:0;
+  list-style: none;
+  border-radius: 5px; 
+}
+.drop-down2:hover .menu2{
+  transition: 0.5s;
+  opacity:1;
+}
+.btn{
+  font-size: 15px;
+  color:white;
+  padding:12px;
+  border-radius: 50px;
+  cursor: pointer;
+  border:2px solid aqua;
+  background-color: rgb(55, 81, 126);
+}
+.btn:hover{
+  background-color: aqua;
+}
+.container{
+  background-color:rgb(55, 81, 126) ;
+  color:black;
+  padding-bottom:100px;
+}
+.content-left{
+  flex-basis:40%;
+  width:40%;
+  padding-top:120px;
+  padding-left:100px;
+}
+.text1{
+  font-size: 45px;
+  color:white;
+}
+.text2{
+  padding-top:15px;
+  color:rgb(177, 177, 177);
+  font-size: 20px;
+  line-height: 30px;
+}
+.container-btn{
+  margin-top:50px;
+  display: flex;
+}
+.btn2{
+  display: inline-block;
+  text-decoration: none;
+  font-size:16px;
+  color:white;
+  background-color: #47b2e4;
+  border-radius: 50px;
+  padding: 10px 28px 11px 28px;
+  transition: .5s;
+}
+.btn2:hover{
+  background-color: aqua;
+}
+.btn3{
+  text-decoration: none;
+  font-size:20px;
+  color:white;
+  margin-left: 50px;
+  display:flex;  
+  margin-top:6px;
+  transition: .5s;
+}
+.fa-circle-play{
+  font-size:31px;
+}
+.btn3:hover{
+  color:aquamarine
+}
+.content-right{
+  position: relative;
+  flex-basis:60%;
+  display: flex;
+}
+.anh1{
+  margin: 80px;
+  width:70%;
+  position: absolute;
+  animation-name: slideMe;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  animation-direction: alternate ;
+  z-index: 0;
+}
+@keyframes slideMe {
+  from{
+    top:0;
+  }
+  to{
+    top:7px
+  }
+}
+.footer{
+  display:flex;
+  background-color: white;
+  width:100%;
+}
+.container-1, .container-2, .container-3, .container-4{
+  flex-basis:25%;
+  justify-content: center;
+  line-height: 30px;
+  display: flex;
+  padding-top:40px;
+  flex-wrap: wrap;
+  margin-bottom:60px;
+}
+.container-1 h2{
+  color:blue;
+  margin-bottom:15px
+}
+.container-4 h3{
+  color:blue;
+  margin-bottom:15px
+}
+.txt{
+  color:blue;
+  margin-bottom:15px
+}
+.ds {
+	position: relative;
+	list-style: none;
+	margin-left: 0;
+	padding-left: 1.2em;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.ds li:before {
+	content: ">";
+	position: absolute;
+	left: 0;
+  color:rgb(0, 136, 255);
+}
+.ds li:hover{
+  color:aqua
+}
+.container-icon{
+  list-style: none;
+  display: flex;
+  
+}
+.icon1{
+  color:white;
+  border-radius: 50px;
+  background-color: aqua;
+  font-size: 25px;
+  padding:5px;
+  margin-right:10px;
+}
+.icon2{
+  color:white;
+  border-radius: 50px;
+  background-color: aqua;
+  font-size: 25px;
+  padding:5px 10px;
+  margin-right:10px
+}
+.icon3{
+  color:white;
+  border-radius: 50px;
+  background-color: aqua;
+  font-size: 25px;
+  padding:5px 10px;
+  margin-right:10px
+}
+.icon4{
+  color:white;
+  border-radius: 50px;
+  background-color: aqua;
+  font-size: 25px;
+  padding:5px 10px;
+  margin-right:10px
+}
+.icon5{
+  color:white;
+  border-radius: 50px;
+  background-color: aqua;
+  font-size: 25px;
+  padding:5px 10px;
+  margin-right:10px
+}
+.intro{
+  background-color: blue;
+  height:81px;
+  display: flex;
+  width: 100%;
+  background-color: #37517e;
+  color:white;
+  align-items: center;
+  position: relative;
+}
+.intro .first{
+  padding-left:10%;
+}
+.last{
+  position: absolute;
+  right:40px;
+}
+.txt100{
+  color:aqua;
+}
