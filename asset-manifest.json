@@ -1,19 +1,15 @@
 {
   "files": {
-    "main.css": "/Vinh241/react-hit.git/static/css/main.13b1f8bf.css",
-    "main.js": "/Vinh241/react-hit.git/static/js/main.10f739d9.js",
-    "static/js/787.c172d280.chunk.js": "/Vinh241/react-hit.git/static/js/787.c172d280.chunk.js",
-    "static/media/img2.png": "/Vinh241/react-hit.git/static/media/img2.7e4cb2fde0ee81435c9e.png",
-    "static/media/img4.png": "/Vinh241/react-hit.git/static/media/img4.7c51911e32d51ad3bf65.png",
-    "static/media/img3.png": "/Vinh241/react-hit.git/static/media/img3.0ae5e6fc9573eee88d51.png",
-    "static/media/img1.png": "/Vinh241/react-hit.git/static/media/img1.040cc0fddc74d1423a2a.png",
-    "index.html": "/Vinh241/react-hit.git/index.html",
-    "main.13b1f8bf.css.map": "/Vinh241/react-hit.git/static/css/main.13b1f8bf.css.map",
-    "main.10f739d9.js.map": "/Vinh241/react-hit.git/static/js/main.10f739d9.js.map",
-    "787.c172d280.chunk.js.map": "/Vinh241/react-hit.git/static/js/787.c172d280.chunk.js.map"
+    "main.css": "/static/css/main.e0135bda.css",
+    "main.js": "/static/js/main.325880ca.js",
+    "static/js/787.63e47474.chunk.js": "/static/js/787.63e47474.chunk.js",
+    "index.html": "/index.html",
+    "main.e0135bda.css.map": "/static/css/main.e0135bda.css.map",
+    "main.325880ca.js.map": "/static/js/main.325880ca.js.map",
+    "787.63e47474.chunk.js.map": "/static/js/787.63e47474.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.13b1f8bf.css",
-    "static/js/main.10f739d9.js"
+    "static/css/main.e0135bda.css",
+    "static/js/main.325880ca.js"
   ]
 }
